@@ -1,6 +1,6 @@
 let id =0;
 
-//weight in ounces. height in inches
+//weight in ounces. height in centimeters
 export const makePottery =(paramShape, paramWeight, paramHeight)=>{
     id++
     return  {

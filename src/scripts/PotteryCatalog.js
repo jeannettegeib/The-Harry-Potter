@@ -19,9 +19,7 @@ return potteryForSale;
 
 // Define and export a function named usePottery returns a copy of the array of items to be sold. Recall which array method creates a copy of the array.???
 export const usePottery =() =>{
-let pricedPotteryForSale = [];
-pricedPotteryForSale.push(potteryForSale);
-return pricedPotteryForSale;
+    return potteryForSale.map(fishTacos =>({...fishTacos}))
 }
 
 
